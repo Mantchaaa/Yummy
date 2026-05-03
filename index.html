@@ -79,7 +79,7 @@
 </head>
 <body>
 
-    <audio id="myAudio" loop><source src="musik_lo.mp3" type="audio/mpeg"></audio>
+    <audio id="myAudio" loop><source src="musik_mantcha.mp3" type="audio/mpeg"></audio>
 
     <div class="background-container">
         <div class="gradient-canvas"></div>
@@ -159,7 +159,7 @@
 
         function createFallingLove() {
             if(currentMenu !== 'HOME') return;
-            const items = ['', '💖', '✨', '🌸', '☁️', '💎'];
+            const items = ['💐', '💖', '✨', '🌸', '☁️', '💎', '💞',];
             const heart = document.createElement('div');
             heart.className = 'falling-love';
             heart.innerHTML = items[Math.floor(Math.random() * items.length)];
